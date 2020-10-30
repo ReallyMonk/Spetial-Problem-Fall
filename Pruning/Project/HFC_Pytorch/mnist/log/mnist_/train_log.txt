@@ -1,0 +1,23 @@
+todo             : train
+dataset          : mnist
+data_root        : /data/cag-stu-maoyijun/PyTorch-GAN-master/data/mnist/
+log_root         : log
+model_root       : checkpoint
+load_checkpoint  : ./model/default/model.pth
+affix            : 
+epsilon          : 0.6
+alpha            : 0.02
+k                : 40
+batch_size       : 128
+max_epoch        : 50
+learning_rate    : 0.0001
+gpu              : 9
+n_eval_step      : 100
+n_checkpoint_step : 5000
+n_store_image_step : 2000
+perturbation_type : linf
+img_size         : 28
+adv_train        : False
+rho              : 0
+log_folder       : log\mnist_
+model_folder     : checkpoint\mnist_
